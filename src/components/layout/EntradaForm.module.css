@@ -1,0 +1,21 @@
+.form_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1400px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 650px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid rgba(51, 51, 51, 0.50);
+    border-radius: 20px;
+}
+
+.form div {
+    padding: 2px;
+}

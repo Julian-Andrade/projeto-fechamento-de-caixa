@@ -1,0 +1,21 @@
+{
+  "entry": [],
+  "vendedores": [
+    {
+      "id": 1,
+      "name": "Claudia"
+    },
+    {
+      "id": 2,
+      "name": "José"
+    },
+    {
+      "id": 3,
+      "name": "Lais"
+    },
+    {
+      "id": 4,
+      "name": "Meisy"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+.tablehead_container {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-items: center;
+  background-color: #f3f3f3;
+  border-bottom: 1px solid #333;
+}
+
+.tablehead_edit {
+  color: rgb(11, 124, 49);
+}
+
+.tablehead_erase {
+  color: rgb(199, 12, 12);
+}

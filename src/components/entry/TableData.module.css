@@ -1,0 +1,38 @@
+.tabledata_container {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.tabledata_container p {
+  justify-self: center;
+  align-items: center;
+}
+
+.table_actions {
+  display: grid;
+  justify-self: center;
+  align-items: center;
+}
+
+.table_actions a,
+.table_actions button {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    color: #333;
+    font-size: 16px;
+    margin-right: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.table_actions a:hover,
+.table_actions button:hover {
+    color: #ffbb32;
+}
